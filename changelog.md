@@ -1,5 +1,8 @@
 ## Release History
 
+ * **v2.9.6** - 2020-11-03
+   - add `aria-describedby` attribute to the intro.js step tooltip dialog
+
  * **v2.9.3** - 2018-04-24
    - hotfix to skipping and exiting the intro
 
@@ -11,7 +14,7 @@
 
  * **v2.9.0** - 2018-04-23
    - Added @bozdoz as Author
-   - Fixed scroll positions when parent element is scrollable 
+   - Fixed scroll positions when parent element is scrollable
    - Added DOM Event helper function and _stamp to uniquely identify objects and intro instances; fixes issues with removing event listeners
    - Added new syntax for radial gradients
    - Fixes to CSP violations to avoid using `setAttribute`
@@ -39,7 +42,7 @@
 
  * **v2.6.0** - 2017-07-29
    - Per step disable interaction
-   - Adding `scrollTo` option 
+   - Adding `scrollTo` option
    - Better scrolling method
    - Fixing pulse animation issue on IE
    - Adding a new method to show the popup of specific hint

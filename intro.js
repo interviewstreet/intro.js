@@ -627,6 +627,7 @@
 
     tooltipLayer.className = ('introjs-tooltip ' + tooltipCssClass).replace(/^\s+|\s+$/g, '');
     tooltipLayer.setAttribute('role', 'dialog');
+    tooltipLayer.setAttribute('aria-describedby', 'introjs-tooltiptext-id');
 
     currentTooltipPosition = this._introItems[this._currentStep].position;
 
@@ -1153,6 +1154,7 @@
       arrowLayer.className = 'introjs-arrow';
 
       tooltipTextLayer.className = 'introjs-tooltiptext';
+      tooltipTextLayer.id = 'introjs-tooltiptext-id';
       tooltipTextLayer.innerHTML = targetElement.intro;
 
       bulletsLayer.className = 'introjs-bullets';
